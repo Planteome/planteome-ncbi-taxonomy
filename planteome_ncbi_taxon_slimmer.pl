@@ -30,7 +30,7 @@ my $ncbi_owltools_path = "/home/justin/owltools/OWLTools-NCBI/bin/ncbi2owl.jar";
 
 # open the assoc files to be parsed
 
-my @assoc_files = glob("$assoc_dir/*.assoc");
+my @assoc_files = glob("$assoc_dir/*associations/*.assoc");
 
 my %taxon_hash;
 # taxon id 1 is required, I think
@@ -153,20 +153,4 @@ open(IDFILE, ">taxon_id.lst");
 foreach my $key (sort {$a<=>$b} keys %taxon_hash) {
 		print IDFILE "$key\n";
 }
-						
-						
-						
-						
-						
-						
-						
-						
-						
-						
-						
-						
-						
-						
-						
-						
-						
+
