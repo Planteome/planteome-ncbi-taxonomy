@@ -43,7 +43,7 @@ foreach my $input_file (@assoc_files) {
 			my $line = $_;
 			chomp $line;
 			
-			if($line =~ /taxon:(\d+)/) {
+			if($line =~ /axon:(\d+)/) {
 					my $taxon = $1;
 					if(!defined($taxon_hash{$taxon})){
 							$taxon_hash{$taxon} = $taxon;
