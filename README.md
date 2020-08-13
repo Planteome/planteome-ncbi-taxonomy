@@ -1,3 +1,5 @@
+[![NSF-1340112](https://img.shields.io/badge/NSF-1340112-blue.svg)](https://www.nsf.gov/awardsearch/showAward?AWD_ID=1340112)
+
 # planteome-ncbi-taxonomy
 List of Association files parsed by NCBI slimmer script (JE 8-6-15), along with the OBO files for PO, EO, TO and PSO from GitHub.
 
